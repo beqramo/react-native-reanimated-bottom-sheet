@@ -291,7 +291,7 @@ function withDecaying(
   ])
 }
 
-export default class BottomSheetBehavior extends React.Component<Props, State> {
+export default class BottomSheetBehavior extends React.PureComponent<Props, State> {
   static defaultProps = {
     overdragResistanceFactor: 0,
     initialSnap: 0,
